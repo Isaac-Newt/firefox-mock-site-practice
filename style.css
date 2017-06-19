@@ -54,6 +54,7 @@ body {
 #quotebox {
   display: flex;
   flex-direction: column;
+  min-width: 50vh;
   text-align: center;
   padding: 2em 0;
   border-top: solid #e66000 2px;
@@ -87,7 +88,16 @@ body {
 }
 
 #link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   font-size: 72px;
   margin: 0;
   padding: 1.6em 0;
+}
+
+#linktxt {
+  text-align: center;
+  text-decoration: none;
+  display: flex;
 }

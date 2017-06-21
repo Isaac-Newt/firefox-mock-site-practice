@@ -50,6 +50,7 @@ body {
   justify-content: space-around;
   background: linear-gradient(#00539F, #002147);
   background: -o-linear-gradient(#00539F, #002147);
+  background: -webkit-linear-gradient(#00539F, #002147);
 }
 
 #quotes1 {

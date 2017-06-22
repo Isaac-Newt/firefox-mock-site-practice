@@ -1,0 +1,50 @@
+body {
+  font-family: "Fira Sans";
+  margin: 0;
+}
+
+#header {
+  text-align: center;
+  margin: 0;
+  color: #e66000;
+  background: linear-gradient(#EAEFF2, #D4DDE4);
+}
+
+#head {
+  font-size: 84px;
+  padding: .5em;
+  margin: 0;
+  font-weight: 600;
+}
+
+#line {
+  height: 5px;
+  width: 50%;
+  background: #e66000;
+  margin: 0 auto;
+  border-radius: 200px;
+}
+
+#subhead {
+  font-size: 36px;
+  padding: 1em;
+  margin: 0;
+}
+
+#world {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #424F5A;
+  color: #fff;
+}
+
+#closed {
+  display: flex;
+  margin: 0 2em;
+}
+
+#open {
+  display: flex;
+  margin: 0 2em;
+}

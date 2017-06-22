@@ -12,10 +12,6 @@ body {
   position: relative;
 }
 
-[if Opera] #hero {
-  height: 10em;
-}
-
 #sshot {
   height: 100vh;
   background-image: url("firefox.png");
@@ -23,10 +19,6 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
   position: relative;
-}
-
-[if Opera] #sshot {
-  height: 10em;
 }
 
 #h-text {
@@ -51,10 +43,6 @@ body {
   background: linear-gradient(#00539F, #002147);
   background: -o-linear-gradient(#00539F, #002147);
   background: -webkit-linear-gradient(#00539F, #002147);
-}
-
-[if IE] #quotes {
-  background: #00539f;
 }
 
 #quotes1 {
@@ -86,10 +74,6 @@ body {
   background: linear-gradient(#002147, #000);
   background: -o-linear-gradient(#002147, #000);
   background: -webkit-linear-gradient(#002147, #000);
-}
-
-[if IE] #questbgd {
-  background: #002147;
 }
 
 #quest {
@@ -124,6 +108,13 @@ body {
 li>a {
   text-decoration: none;
   color: white;
+}
+
+li>a:hover {
+  padding: .3em;
+  border-radius: 64px;
+  border: 4px solid #e66000;
+  transition: .25s;
 }
 
 #ff {

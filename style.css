@@ -73,7 +73,6 @@ body {
 #questbgd {
   background: linear-gradient(#002147, #000);
   background: -o-linear-gradient(#002147, #000);
-  background: -webkit-linear-gradient(#002147, #000);
 }
 
 #quest {

@@ -31,20 +31,44 @@ body {
   margin: 0;
 }
 
-#world {
+#comp {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  flex-grow: 1;
+  flex-direction: row;
+  flex-shrink: 1;
+}
+
+#compblocks {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+#list>h2 {
+  font-weight: 400;
+  text-align: center;
+}
+
+#title {
   background: #424F5A;
-  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  color: white;
+  padding: .5em 2em;
+  box-shadow: 0px 0.2rem rgba(0, 0, 0, 0.2)
 }
 
-#closed {
+#list {
   display: flex;
-  margin: 0 2em;
-}
-
-#open {
-  display: flex;
-  margin: 0 2em;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  margin: 0;
+  padding: 0 .5em;
 }

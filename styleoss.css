@@ -47,7 +47,7 @@ body {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
-  min-width: 24em;
+  min-width: 31em;
 }
 
 #list>h2 {

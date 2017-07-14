@@ -7,7 +7,7 @@ body {
   text-align: center;
   margin: 0;
   color: #e66000;
-  background: linear-gradient(#EAEFF2, #D4DDE4);
+  background: rgba(0, 149, 221, 0.5);
 }
 
 #head {
@@ -37,6 +37,7 @@ body {
   flex-grow: 1;
   flex-direction: row;
   flex-shrink: 1;
+  box-shadow: 0 0 .4rem rgba(0,0,0,0.35);
 }
 
 #compblocks {
@@ -73,4 +74,70 @@ body {
   margin: 0;
   padding: 0 .5em;
   font-size: 1em;
+}
+
+#head2 {
+  text-align: center;
+  background: rgba(0, 149, 221, 0.5);
+  margin: 0;
+  padding: 1.2em;
+  font-size: 54px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#browsers {
+  background: rgba(0, 149, 221, 0.5);
+  padding: 0 .5em 2em;
+}
+
+#browsertbl {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #888;
+  box-shadow: 0 0 .4rem rgba(0,0,0,0.35);
+}
+
+th {
+  padding: 16px;
+  border-bottom: 1px solid #555;
+  font-size: 28px;
+  text-align: left;
+}
+
+td {
+  padding: 16px;
+  border-bottom: 1px solid #555;
+  font-size: 24px;
+}
+
+#h {
+  background: #424F5A;
+  color: #fff;
+}
+
+#ff {
+  font-weight: bold;
+  background: rgba(0, 255, 0, 0.5);
+}
+#p {
+  background: rgba(255, 0, 0, 0.5);
+}
+
+#m {
+  background: rgba(255, 255, 0, 0.75);
+}
+
+#o {
+  background: rgba(0, 255, 0, 0.5);
+}
+
+#after {
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+  padding: 2em;
 }

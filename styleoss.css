@@ -139,5 +139,22 @@ td {
   text-align: center;
   font-size: 24px;
   margin: 0;
+  padding-bottom: 2em;
+}
+
+#think {
+  background: #424F5A;
+  color: #fff;
+  text-align: center;
   padding: 2em;
+}
+
+#head3 {
+  font-size: 54px;
+  margin: 0;
+}
+
+#subhead1 {
+  font-size: 28px;
+  margin: 0;
 }

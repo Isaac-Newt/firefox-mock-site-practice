@@ -31,7 +31,7 @@ body {
   margin: 0;
 }
 
-#comp {
+.comp {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
@@ -40,7 +40,7 @@ body {
   box-shadow: 0 0 .4rem rgba(0,0,0,0.35);
 }
 
-#compblocks {
+.compblocks {
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -50,12 +50,12 @@ body {
   flex-basis: 0;
 }
 
-#list>h2 {
+.list>h2 {
   font-weight: 400;
   text-align: center;
 }
 
-#title {
+.title {
   background: #424F5A;
   display: flex;
   justify-content: center;
@@ -66,7 +66,7 @@ body {
   box-shadow: 0px 0.2rem rgba(0, 0, 0, 0.2);
 }
 
-#list {
+.list {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -126,15 +126,15 @@ td {
   font-weight: bold;
   background: rgba(0, 255, 0, 0.5);
 }
-#p {
+.p {
   background: rgba(255, 0, 0, 0.5);
 }
 
-#m {
+.m {
   background: rgba(255, 255, 0, 0.75);
 }
 
-#o {
+.o {
   background: rgba(0, 255, 0, 0.5);
 }
 
@@ -171,7 +171,7 @@ td {
   box-shadow: 0px 0rem .6rem rgba(0, 0, 0, 0.6);
 }
 
-#footitem {
+.footitem {
   display: flex;
   font-size: 40px;
   color: #fff;

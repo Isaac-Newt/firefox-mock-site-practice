@@ -4,25 +4,43 @@ body {
   text-align: center;
 }
 
-#live {
+#wrapper {
+  margin: 2em auto;
+  width: 90%;
+  border: 1px solid #424F5A;
+  box-shadow: 0 0 .4rem rgba(0,0,0,0.35);
+}
+
+#header {
+  margin: .5em 10%;
+  padding: .5em;
+  background: pink;
+}
+
+div>h2 {
+  padding: .25em;
+  margin: 0;
+  color: white;
+  background: #424F5A;
+}
+
+#live, #strange, #dead {
   display: flex;
-  background: rgba(0, 255, 0, 0.5);
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 12px 0;
+}
+
+#live {
+  background: rgba(0, 255, 0, 0.5);
 }
 
 #strange {
-  display: flex;
   background: rgba(0, 0, 255, 0.5);
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 #dead {
-  display: flex;
   background: rgba(255, 0, 0, 0.6);
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 .box {
@@ -34,8 +52,8 @@ body {
   margin: 4px 2px;
   text-align: center;
   justify-content: center;
-  border: solid 3px red;
-  border-radius: 48px;
+  border: solid 2px black;
+  border-radius: 54px;
 }
 
 div>div>a {

@@ -12,9 +12,9 @@ body {
 }
 
 #header {
-  margin: .5em 10%;
-  padding: .5em;
-  background: pink;
+  margin: 0;
+  padding: 1em 10%;
+  background: #ddd;
 }
 
 div>h2 {

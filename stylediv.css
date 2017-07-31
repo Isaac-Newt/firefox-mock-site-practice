@@ -68,6 +68,18 @@ div>div>img {
   margin: auto;
 }
 
+#compete {
+  text-align: center;
+}
+
+#hr {
+  background: #000;
+  height: 2px;
+  width: 32em;
+  max-width: 90%;
+  margin: 4em auto;
+}
+
 #think {
   background: #424F5A;
   color: #fff;

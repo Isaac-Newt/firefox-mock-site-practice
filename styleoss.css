@@ -124,18 +124,18 @@ td {
 
 #ff {
   font-weight: bold;
-  background: rgba(0, 255, 0, 0.5);
+  background: #7FFF7F;
 }
 .p {
-  background: rgba(255, 0, 0, 0.5);
+  background: #FF7F7F;
 }
 
 .m {
-  background: rgba(255, 255, 0, 0.75);
+  background: #FFFF40;
 }
 
 .o {
-  background: rgba(0, 255, 0, 0.5);
+  background: #7FFF7F;
 }
 
 #after {

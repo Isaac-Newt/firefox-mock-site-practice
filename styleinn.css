@@ -1,44 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
   font-family: "Fira Sans";
-}
-
-#start {
-  height: 100vh;
-  margin: 0;
-  background: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#warn {
-  color: white;
-  font-size: 48px;
-  margin: 0;
-  width: 75%;
-  text-align: center;
-}
-
-#warn1 {
-  color: white;
-  font-size: 64px;
-  margin: 0
-}
-
-#two {
-  height: 50vh;
-  margin: 0;
-  background: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#three {
-  display: flex;
-  flex-flow: column nowrap;
 }
 
 a {
